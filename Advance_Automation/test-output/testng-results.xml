@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-31T07:40:55 IST" name="Default suite" finished-at="2024-12-31T07:44:43 IST" duration-ms="227896">
+    <groups>
+    </groups>
+    <test started-at="2024-12-31T07:40:55 IST" name="Default test" finished-at="2024-12-31T07:44:43 IST" duration-ms="227896">
+      <class name="VtigerCRM.CreateContactwithOrganizationTest">
+        <test-method is-config="true" signature="beforeSuiteAnn()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:40:55 IST" name="beforeSuiteAnn" finished-at="2024-12-31T07:40:55 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteAnn -->
+        <test-method is-config="true" signature="beforeTestAnn()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:40:55 IST" name="beforeTestAnn" finished-at="2024-12-31T07:40:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestAnn -->
+        <test-method is-config="true" signature="beforeClassAnn()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:40:55 IST" name="beforeClassAnn" finished-at="2024-12-31T07:41:13 IST" duration-ms="18048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassAnn -->
+        <test-method is-config="true" signature="beforeMethodAn()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:41:13 IST" name="beforeMethodAn" finished-at="2024-12-31T07:41:35 IST" duration-ms="21580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodAn -->
+        <test-method signature="CreateContactwithOrganizationTest()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:41:35 IST" name="CreateContactwithOrganizationTest" finished-at="2024-12-31T07:43:59 IST" duration-ms="143365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactwithOrganizationTest -->
+        <test-method is-config="true" signature="afterMethodAnn()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:43:59 IST" name="afterMethodAnn" finished-at="2024-12-31T07:44:13 IST" duration-ms="13877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAnn -->
+        <test-method is-config="true" signature="afterClassAnn()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:44:14 IST" name="afterClassAnn" finished-at="2024-12-31T07:44:43 IST" duration-ms="29372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassAnn -->
+        <test-method is-config="true" signature="afterTestAnn()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:44:43 IST" name="afterTestAnn" finished-at="2024-12-31T07:44:43 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestAnn -->
+        <test-method is-config="true" signature="afterSuitAnn()[pri:0, instance:VtigerCRM.CreateContactwithOrganizationTest@7db12bb6]" started-at="2024-12-31T07:44:44 IST" name="afterSuitAnn" finished-at="2024-12-31T07:44:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuitAnn -->
+      </class> <!-- VtigerCRM.CreateContactwithOrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
