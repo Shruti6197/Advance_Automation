@@ -40,7 +40,8 @@ public class TestNG_BaseClass {
 	public void beforeClassAnn() throws IOException {
 		System.out.println("Launching the browser");
 		fileUtility futility = new fileUtility();
-		String BROWSER = futility.getKeyandValuePair("browser"); 
+		String BROWSER = futility.getKeyandValuePair("browser");  
+	//	String BROWSER = System.getProperty("browser");   //using this statement to reading the parameter from cmd for maven execution
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 		} else if (BROWSER.equalsIgnoreCase("edge")) {
@@ -62,6 +63,11 @@ public class TestNG_BaseClass {
 		String URL = futility.getKeyandValuePair("url");
 		String USERNAME = futility.getKeyandValuePair("username");
 		String PASSWORD = futility.getKeyandValuePair("password");  
+		
+		//using this statement to reading the parameter from cmd for maven execution
+	/*	String URL = System.getProperty("url");
+		String USERNAME = System.getProperty("username");
+		String PASSWORD = System.getProperty("password"); */
 
 		WDU.maximizatheWindow(driver);
 		WDU.waitfortheElement(driver);

@@ -3,21 +3,21 @@
 <suite name="Suite">
   <test thread-count="5" name="TestRunner1">
 	  <classes>
-		  <class name="VtigerCRM.createContact"></class>
-		  <class name="VtigerCRM.createOrganization"></class>
+		  <class name="VtigerCRM.createContactTest"></class>
+		  <class name="VtigerCRM.createOrganizationTest"></class>
 	  </classes>
   </test> <!-- Test -->
   
   <test name="TestRunner2">
 	  <classes>
-		  <class name="VtigerCRM.createCampaigns"></class>
-		  <class name="VtigerCRM.createProduct"></class>
+		  <class name="VtigerCRM.createCampaignsTest"></class>
+		  <class name="VtigerCRM.createProductTest"></class>
 	  </classes>
   </test>
   
   <test name="TestRunner3">
 	  <classes>
-		  <class name="VtigerCRM.CreateContactwithOrganization"></class>
+		  <class name="VtigerCRM.CreateContactwithOrganizationTest"></class>
 	  </classes>
   </test>
 </suite> <!-- Suite -->

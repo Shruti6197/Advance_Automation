@@ -39,4 +39,8 @@ public class createProductTest extends TestNG_BaseClass{
 		validate.validate_product(driver, Prod_Name);
 		
 	}
+	
+	public void testMethod() {
+		System.out.println("Test Method");
+	}
 }

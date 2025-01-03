@@ -7,7 +7,7 @@
 	<parameter name="USERNAME" value="admin"></parameter>
 	<parameter name="PASSWORD" value="shruti"></parameter>
 	<classes>
-		<class name="VtigerCRM.createContact"></class>
+		<class name="VtigerCRM.createContactTest"></class>
 	</classes>
   </test> <!-- Test -->
   
@@ -17,7 +17,7 @@
 	<parameter name="USERNAME" value="admin"></parameter>
 	<parameter name="PASSWORD" value="shruti"></parameter>
 	<classes>
-		<class name="VtigerCRM.createOrganization"></class>
+		<class name="VtigerCRM.createOrganizationTest"></class>
 	</classes>  
   </test>
 </suite> <!-- Suite -->
